@@ -1,0 +1,54 @@
+body {
+  font-size: 1rem;
+  text-align: center;
+  font-family: $ff-overpass;
+  h1 {
+    color: $text-white;
+    font-size: 2.25rem;
+    font-weight: 600;
+    letter-spacing: -1.08px;
+  }
+  h2 {
+    color: $text-primary-very-dark-blue;
+    font-size: 1.75rem;
+    font-weight: 600;
+    letter-spacing: -0.84px;
+  }
+  h3 {
+    color: $text-primary-very-dark-blue;
+    font-size: 1.75rem;
+    font-weight: 600;
+    letter-spacing: 0px;
+    line-height: 2rem;
+  }
+  h4 {
+    color: $text-primary-very-dark-blue;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 28px;
+  }
+  p {
+    color: $text-white;
+    font-size: 1.125rem;
+    font-weight: 300;
+  }
+  .body-text {
+    color: $text-body-very-dark-grayish;
+    line-height: 1.75rem;
+    letter-spacing: 0.5px;
+  }
+  .heading-one-reset {
+    font-weight: 600;
+    font-size: 2.5rem;
+    letter-spacing: -1.2px;
+  }
+  .heading-two-reset {
+    letter-spacing: 0px;
+    line-height: 2rem;
+  }
+  .button-text {
+    color: $text-primary-light-red;
+    font-family: $ff-ubuntu;
+    font-weight: 700;
+  }
+}

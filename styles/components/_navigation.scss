@@ -1,0 +1,57 @@
+body {
+  nav {
+    border-radius: 5px;
+    background-color: $text-white;
+    transform: translateY(-100%);
+    min-height: 60vh;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .container {
+      height: 0;
+      overflow: hidden;
+      width: 100%;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    .accordian {
+      position: relative;
+      min-height: 100%;
+      width: 100%;
+      .accordian-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h4,
+        img {
+          padding: 3px;
+        }
+      }
+      .accordian-list {
+        background-color: hsla(0, 0, 59, 0.3);
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 5px;
+        list-style: none;
+        overflow: hidden;
+        li {
+          margin: 0px 0px 10px;
+        }
+      }
+    }
+  }
+}
+
+.toggle-list {
+  .container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transition: all 500ms ease-in;
+  }
+}
